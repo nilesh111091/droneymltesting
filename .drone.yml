@@ -12,7 +12,7 @@ steps:
     image: plugins/slack
     settings:
       webhook:
-        from_secret: SLACK_WEBHOOK_URL
+        from_secret: https://hooks.slack.com/services/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
       channel: "#general"
       username: "Drone CI"
       icon_emoji: ":rocket:"
